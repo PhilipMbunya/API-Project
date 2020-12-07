@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Photo-sharing platform</title>
+<style>
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background: white;
+}
+nav{
+	background: black;
+	width: 100%;
+	overflow: auto;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li{
+	float: left;
+}
+nav a{
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background:black;
+	font-size: 13px;
+	color: white;
+	padding: 15px 10px;
+	font-family: Arial;
+}
+nav a:hover{
+	background: yellow;
+	color: black;
+}
+.banner-area{
+	background-image: url(background.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+.banner-text{
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	color: black;
+	text-align: left;
+}
+.banner-text h2{
+	font-family: Gabriola;
+	margin: 0;
+	font-size: 40px;
+	color: black;
+}
+.banner-text p{
+	font-size: 28px;
+	margin: 0;
+	font-family: Gabriola;
+}
+.banner-text a{
+	text-decoration: none;
+	border: 1px solid black;
+	font-size: 17px;
+	padding: 10px 35px;
+	color: black;
+	display: inline-block;
+	margin-top: 5%;
+	font-family: tahoma;
+	text-transform: uppercase;
+}
+.banner-text a:hover{
+	border-color: yellow;
+	background: yellow;
+	transition: .9s;
+	color: #262626;	
+}
+.gallery{
+	
+	float: right;
+	width: 500px;
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+</style>
+</head>
+<body>
+
+	<div class="banner-area">
+<nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">LogIn</a></li>
+		<li><a href="#">Registration</a></li>
+		<li><a href="#">Gallery</a></li>
+		<li><a href="#">Contact</a></li>	
+	</ul>
+</nav>
+
+
+<div class="banner-text">
+			<h2>CANDID STUDIOS</h2>
+			<p>An Experience You'll Never Forget.</p>
+			<p>Photography is a way of feeling, of touching, of loving.</p>
+			<a href="#">Learn More</a>
+			<a href="#">about us</a>
+		</div>
+
+</div>
+</div>
+
+</body>
+</html>
